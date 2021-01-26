@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+	<view>
+		<share-button></share-button>
+	</view>
+	<view class="header">
+		<image class="header-logo" src="/images/index/hupu.png"></image>
+	</view>
+
+	<view class="search-input">
+		<l-textarea auto-height="{{false}}" bind:lininput="changeUrl" style="height : 400rpx" maxlength="-1" indicator="{{false}}" placeholder="输入虎扑楼层分享链接......" value="{{url}}" />
+	</view>
+	<view class="btn-container">
+		<l-button bindtap="getRealUrl" type="default" shape="semicircle" bg-color="#27c18f" width="170" height="85" class="btn1">获取</l-button>
+		<l-button bindtap="clearUrl" type="default" shape="semicircle" bg-color="#333333" width="170" height="85">清空</l-button>
+	</view>
+	<l-message content="{{content}}" type="{{type}}" duration="{{ duration}}" show="{{show}}" />
+</view>

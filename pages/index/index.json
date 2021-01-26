@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#333333",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "l-textarea": "/miniprogram_npm/lin-ui/textarea/index",
+    "l-icon": "/miniprogram_npm/lin-ui/icon/index",
+    "l-button": "/miniprogram_npm/lin-ui/button/index",
+    "share-button": "/miniprogram_npm/share-button/index",
+    "l-message": "/miniprogram_npm/lin-ui/message/index",
+    "l-loading": "/miniprogram_npm/lin-ui/loading/index"
+  }
+}

@@ -1,14 +1,15 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
+    "pages/ku/ku",
     "pages/index/detail/detail",
     "pages/about/about"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#bbbbbb",
@@ -21,6 +22,12 @@
         "text": "首页",
         "iconPath": "images/tab/home.png",
         "selectedIconPath": "images/tab/home_fill.png"
+      },
+      {
+        "pagePath": "pages/ku/ku",
+        "text": "状态库",
+        "iconPath": "images/tab/ku.png",
+        "selectedIconPath": "images/tab/ku_fill.png"
       },
       {
         "pagePath": "pages/about/about",

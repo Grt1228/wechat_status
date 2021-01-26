@@ -21,8 +21,8 @@
         <text class='address'>wxb5e8118e8644376f</text>
       </view>
     </view>
-    <!-- <official-account class="account"></official-account>
-  <image bindtap='onImage' src='/images/mypage/26.6km.jpg' class='code'></image>
+    <official-account class="account"></official-account>
+  <!-- <image bindtap='onImage' src='/images/mypage/26.6km.jpg' class='code'></image>
   <text class='desc'>关注我的个人公众号</text>
   <text class='desc'>点击图片可保存二维码识别</text> -->
   </view>

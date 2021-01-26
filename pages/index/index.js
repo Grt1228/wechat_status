@@ -6,8 +6,9 @@ var util = require('../../utils/util.js');
 Page({
   data: {
     url: "",
-    realUrl: "",
-    loading : true
+    realUrl: null,
+    loading : false,
+    showRealUrl: false
   },
   changeUrl: function(e) {
     var val = e.detail.value;
@@ -31,6 +32,9 @@ Page({
       })
       return false;
     }
+    this.setData({
+      loading: true
+    })
     var data = {
       "url": url
     }
@@ -43,9 +47,10 @@ Page({
   },
   successCallBack: function (res) {
     if (res.status == 0) {
-      wx.lin.hideLoading()
+      //wx.lin.hideLoading()
       this.setData({
         loading: false,
+        showRealUrl: true,
         realUrl: res.data
       })
     } else {
@@ -62,6 +67,9 @@ Page({
       type: 'warning',
       duration: 1500,
       content: "系统异常请重试"
+    })
+    this.setData({
+      loading: false
     })
   },
   copyLink: function(e){

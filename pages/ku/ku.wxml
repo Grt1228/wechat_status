@@ -1,10 +1,29 @@
-<view>
-      <l-tabs bind:linchange="changeTabs" animated="{{true}}" >
-        <l-tabpanel tab="图片" key="one" slot="one">
-          <view class="tab-content">图片</view>
-        </l-tabpanel>
-        <l-tabpanel tab="视频" key="two" slot="two">
-          <view class="tab-content">视频</view>
-        </l-tabpanel>
-      </l-tabs>
+<view class="con">
+	<l-tabs bind:linchange="changeTabs" animated="{{true}}" >
+		<l-tabpanel tab="图片" key="0" slot="one" >
+			<content-title name="WaterFlow" describe="瀑布流">
+				<l-water-flow generic:l-water-flow-item="product" />
+			</content-title>
+		</l-tabpanel>
+		<l-tabpanel tab="视频" key="1" slot="two">
+			<view>
+				    <!-- <video 
+      id="myVideo" 
+      src="https://v.hoopchina.com.cn/hupuapp/bbs/82/37931082/thread_102_37931082_20210126092711_58718.mp4?auth_key=1611747233-0-0-bb4f7532293a142684c786be77a7f2e8" 
+      binderror="videoErrorCallback" 
+      enable-danmu 
+      danmu-btn 
+      show-center-play-btn='{{false}}' 
+      show-play-btn="{{true}}" 
+      controls
+      picture-in-picture-mode="{{['push', 'pop']}}"
+      bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+      bindleavepictureinpicture='bindVideoLeavePictureInPicture'
+    ></video> -->
+			</view>
+		</l-tabpanel>
+	</l-tabs>
+	  <block wx:if='{{loading}}'>
+    <l-loading show="true" type="flip" color="#27c18f" full-screen="{{true}}" bg-color="#f3f3f3" size="large" opacity="0.65"></l-loading>
+  </block>
 </view>

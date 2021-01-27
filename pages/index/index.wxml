@@ -14,10 +14,10 @@
     <l-button bindtap="getRealUrl" type="default" shape="semicircle" bg-color="#27c18f" width="170" height="85" class="btn1">获取</l-button>
     <l-button bindtap="clearUrl" type="default" shape="semicircle" bg-color="#333333" width="170" height="85">清空</l-button>
   </view>
-  <l-popup show="{{showRealUrl}}" content-align="center">
+  <l-popup show="{{showRealUrl}}" content-align="center" l-class="my-popup">
     <view class="content" bindtap='copyLink' data-link="{{realUrl.url}}">
-      <view class="question">
-        <image src="{{realUrl.thumUrl}}"></image>
+      <view class="img-content">
+        <image mode="aspectFit" src="{{realUrl.thumUrl}}"></image>
       </view>
       <view class="answer">
         <text class="question-text">点击图片复制视频地址</text>

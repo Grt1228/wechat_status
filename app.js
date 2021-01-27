@@ -6,6 +6,6 @@ App({
 
   },
   globalData: {
-    baseUrl: "http://192.168.137.1:8888/",
+    baseUrl: "http://192.168.0.82:8888/",
   }
 })

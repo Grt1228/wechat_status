@@ -1,4 +1,11 @@
-<l-card full type="cover" image-mode="widthFix" image="{{data.image}}" data-id="{{data.id}}"  l-class="life-container"  l-img-class="life-img" l-title-class="life-title" bindtap="onProduct">
+<l-card full type="cover" 
+image-mode="widthFix" 
+image="{{data.thumUrl}}" 
+data-id="{{data.id}}"  
+l-class="life-container"  
+l-img-class="life-img" 
+l-title-class="life-title" 
+bindtap="onProduct">
   <!-- title="{{data.title}}" -->
   <!-- <view class='life-product-contianer'>
     <view class='art-content'>{{data.describe}}</view>

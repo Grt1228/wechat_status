@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/ku/ku",
+    "pages/ku/detail/detail",
     "pages/index/detail/detail",
     "pages/about/about"
   ],

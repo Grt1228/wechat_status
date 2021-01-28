@@ -6,6 +6,7 @@
     "l-tabpanel": "/miniprogram_npm/lin-ui/tabpanel/index",
     "l-water-flow":"/miniprogram_npm/lin-ui/water-flow/index",
     "product":"./component/product/index",
-    "l-loading": "/miniprogram_npm/lin-ui/loading/index"
+    "l-loading": "/miniprogram_npm/lin-ui/loading/index",
+    "l-loadmore": "/miniprogram_npm/lin-ui/loadmore/index"
   }
 }

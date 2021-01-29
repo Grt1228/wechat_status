@@ -3,15 +3,15 @@
   <share-button></share-button>
   <view class='head'>
     <image class='head-img' src='/images/mypage/logo.png'></image>
-    <text class='head-name'>UTools</text>
-    <text class='head-info'>大学查题目必备小程序。</text>
+    <text class='head-name'>状态宝</text>
+    <text class='head-info'>微信状态设置，虎扑视频获取。</text>
   </view>
   <view class="share">
     <view class='address-container'>
       <view class='dot' />
-      <view class='doc-container' bindtap='copyLink' data-link="https://github.com/Grt1228/YG_chati">
+      <view class='doc-container' bindtap='copyLink' data-link="https://github.com/Grt1228/wechat_status">
         <text class='doc-txt'>代码开源地址</text>
-        <text class='address'>https://github.com/Grt1228/YG_chati</text>
+        <text class='address'>https://github.com/Grt1228/wechat_status</text>
       </view>
     </view>
     <view class='address-container'>

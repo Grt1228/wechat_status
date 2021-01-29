@@ -20,7 +20,7 @@
         <image mode="aspectFit" src="{{realUrl.thumUrl}}"></image>
       </view>
       <view class="answer">
-        <text class="question-text">点击图片复制视频地址</text>
+        <text class="question-text">点击复制视频地址浏览器下载(虎扑是视频只有4小时左右有效时间)</text>
       </view>
     </view>
   </l-popup>

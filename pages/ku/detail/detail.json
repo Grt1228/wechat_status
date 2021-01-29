@@ -3,6 +3,7 @@
   "navigationBarTextStyle": "white",
   "usingComponents": {
     "l-tag": "/miniprogram_npm/lin-ui/tag/index",
-    "l-button": "/miniprogram_npm/lin-ui/button/index"
+    "l-button": "/miniprogram_npm/lin-ui/button/index",
+    "l-notice-bar": "/miniprogram_npm/lin-ui/notice-bar/index"
   }
 }

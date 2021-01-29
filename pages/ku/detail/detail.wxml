@@ -1,2 +1,23 @@
 <!--pages/ku/detail/detail.wxml-->
-<text>pages/ku/detail/detail.wxml</text>
+<view>
+	<view class="container my-card">
+		<view class="title">
+			<text class="title-text">我是标题</text>
+		</view>
+		<view class="img">
+			<image mode="aspectFit" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559893694567&di=decd597a4206cdc46ff1c58f93d54a4e&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F49453126d099fdb7ae6489e01449281c004af3761e10e-tvDbXH_fw658"></image>
+		</view>
+		<view class="tag">
+			<l-tag class="tag-one" size="medium" bg-color="#333">篮球</l-tag>
+			<l-tag class="tag-one" size="medium" bg-color="#444">动漫</l-tag>
+			<l-tag class="tag-one" size="medium" bg-color="#555">垃圾</l-tag>
+		</view>
+		<view class="desc">
+			<text>我是描述啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+		</view>
+		<view class="btn">
+			<l-button type="warning" size="long" shape="semicircle">复制下载链接</l-button>
+		</view>
+	</view>
+
+</view>

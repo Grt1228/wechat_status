@@ -20,13 +20,13 @@ Component({
   methods: {
     onProduct: function (e) {
       console.log(e);
-      wx.navigateToMiniProgram({
-        appId: "wx7564fd5313d24844",
-        path: "pages/video/video?page=0&avid=501451375"
-      })
-      // wx.navigateTo({
-      //   url: '../../../detail/detail?id=' + e.target.dataset.id //传递参数
+      // wx.navigateToMiniProgram({
+      //   appId: "wx7564fd5313d24844",
+      //   path: "pages/video/video?page=0&avid=501451375"
       // })
+      wx.navigateTo({
+        url: '../../../detail/detail?id=' + e.target.dataset.id //传递参数
+      })
     }
   }
 });

@@ -1,9 +1,10 @@
 {
   "pages": [
+
     "pages/index/index",
+    "pages/index/detail/detail",
     "pages/ku/ku",
     "pages/ku/detail/detail",
-    "pages/index/detail/detail",
     "pages/about/about"
   ],
   "window": {

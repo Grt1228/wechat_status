@@ -12,6 +12,7 @@
 			</view>
 			<view wx:else>
       <!-- 视频预览图-->
+        <image mode="aspectFit" src="{{material.thumUrl}}"></image>
 				<block wx:for="{{material.detail}}" wx:for-item="item" wx:key="*this">
           <image mode="aspectFit" src="{{item.thumUrl}}"></image>
 					<!-- <video id="myVideo" poster="{{material.thumUrl}}" src="{{material.url}}" binderror="videoErrorCallback" enable-danmu danmu-btn show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture' bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video> -->

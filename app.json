@@ -1,8 +1,6 @@
 {
   "pages": [
-
     "pages/index/index",
-    "pages/index/detail/detail",
     "pages/ku/ku",
     "pages/ku/detail/detail",
     "pages/about/about"
@@ -21,7 +19,7 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页",
+        "text": "虎扑解析",
         "iconPath": "images/tab/home.png",
         "selectedIconPath": "images/tab/home_fill.png"
       },

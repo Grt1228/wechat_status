@@ -111,6 +111,8 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    return {
+      title: '欢迎【状态宝】微信小程序，微信状态设置必备~~~'
+    }
   }
 })

@@ -8,16 +8,16 @@
   </view>
 
   <view class="search-input">
-    <l-textarea auto-height="{{false}}" bind:lininput="changeUrl" l-class="textarea" maxlength="-1" indicator="{{false}}" placeholder="输入虎扑楼层分享链接......" value="{{url}}" />
+    <l-textarea auto-height="{{false}}" bind:lininput="changeUrl" l-class="textarea" maxlength="-1" indicator="{{false}}" placeholder="输入虎扑【层主】分享视频链接地址......" value="{{url}}" />
   </view>
   <view class="btn-container">
     <l-button bindtap="getRealUrl" type="default" shape="semicircle" bg-color="#27c18f" width="170" height="85" class="btn1">获取</l-button>
     <l-button bindtap="clearUrl" type="default" shape="semicircle" bg-color="#333333" width="170" height="85">清空</l-button>
   </view>
-  <l-popup show="{{showRealUrl}}" content-align="center" l-class="my-popup">
-    <view class="content" bindtap='copyLink' data-link="{{realUrl.url}}">
+  <l-popup show="{{showRealUrl}}" content-align="center" bind:lintap="clearPop" l-class="my-popup">
+    <view class="content" bindtap='copyLink' data-link="{{realUrl}}">
       <view class="img-content">
-        <image mode="aspectFit" src="{{realUrl.thumUrl}}"></image>
+        <image mode="aspectFit" src="{{realThumUrl}}"></image>
       </view>
       <view class="answer">
         <text class="question-text">点击复制视频地址浏览器下载(虎扑是视频只有4小时左右有效时间)</text>

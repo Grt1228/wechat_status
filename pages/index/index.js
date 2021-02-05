@@ -6,7 +6,8 @@ var util = require('../../utils/util.js');
 Page({
   data: {
     url: "",
-    realUrl: null,
+    realUrl: "",
+    realThumUrl: "",
     loading : false,
     showRealUrl: false
   },
@@ -51,7 +52,9 @@ Page({
       this.setData({
         loading: false,
         showRealUrl: true,
-        realUrl: res.data
+        realUrl: res.data.url,
+        realThumUrl: res.data.thumUrl
+
       })
     } else {
       wx.lin.showMessage({
@@ -81,6 +84,13 @@ Page({
           duration: 1500,
         })
       }
+    })
+  },
+  clearPop : function(){
+    console.log("1111111111")
+    this.setData({
+      realUrl: "",
+      realThumUrl: ""
     })
   },
   onShow: function() {

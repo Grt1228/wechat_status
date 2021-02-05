@@ -39,7 +39,7 @@ page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100rpx;
+  margin-top: 20rpx;
 }
 
 .address-container {
